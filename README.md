@@ -6,7 +6,7 @@ It will iterate over any array it finds in the JSON structure and create table r
 
 For example, give JSON structure :
 
-<code>
+<pre>
  {"invoice":
 	{"invoiceNumber":"00001",
 	 "invoiceStatus":"OPEN",
@@ -53,7 +53,7 @@ For example, give JSON structure :
 		"companyName":"apps script producer limited","email":"limited@example.com","phoneNumber":""
 	}
 };
-</code>
+</pre>
 
 Now create a Google Docs file and put place holders anywhere you like :
 
