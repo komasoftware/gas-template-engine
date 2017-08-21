@@ -97,12 +97,12 @@ function template_engine(payload, options) {
   /******************************************************************************/
   function processComplex(asProperty, asComplex, context) {
  
-      if (typeof asComplex=="undefined" || typeof asComplex == null) {
+      if (typeof asComplex ==="undefined" || asComplex === null) {
         if (asProperty) {
           processValue(asProperty, "", context); 
         }
       }
-      if (typeof asComplex == "number" || typeof asComplex == "string" || typeof asComplex == "boolean") {
+      if (typeof asComplex === "number" || typeof asComplex === "string" || typeof asComplex === "boolean") {
         if (asProperty) {
           processValue(asProperty, asComplex, context); 
         }
